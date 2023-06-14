@@ -1,0 +1,12 @@
+whispercpp
+openai
+pynput
+playsound
+pvrecorder
+numpy
+git+https://github.com/aarnphm/whispercpp.git
+gTTS
+opencv-python
+hume
+hume[stream]
+colorama
