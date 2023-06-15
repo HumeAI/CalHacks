@@ -34,7 +34,7 @@ Provides a sample on how to use Hume AI [Streaming API](https://docs.hume.ai/doc
 Provides a sample on how to use OpenAPI with Hume AI.
 It will provide a sample on how to stringify Hume API expression predictions with OpenAPI.
 
-### [Expressions2Text]
+### [Expressions2Text](https://github.com/HumeAI/CalHacks/tree/main/expression2textembeddings)
 **Python**
 
 Expressions2Text tool takes a (48,1) array of emotion scores and transforms it into human understandable text, which can then be further transformed into a language embedding. 
