@@ -38,3 +38,17 @@ It will provide a sample on how to stringify Hume API expression predictions wit
 **Python**
 
 Expressions2Text tool takes a (48,1) array of emotion scores and transforms it into human understandable text, which can then be further transformed into a language embedding. 
+
+## Here's how our existing customers are using Hume's expression APIs:
+* Health & Wellness: Clinical diagnosis (e.g., depression, autism); patient monitoring, therapy
+* AI Research/Services: The next generation of search, recommendation, and content generation
+* Social Networks: Toxicity detection; health/well-being monitoring; relationship compatibility
+* Call Center Analytics: Call triaging (e.g., frustration); emergency detection (e.g., pain); training
+* Embedded Devices: Social robots; AI dashcams; warehouse safety
+* Brand/Financial Analysis: Sentiment analysis for market forecasting and brand sentiment research
+* Creative Tools: Character animation; content generation, editing, and curation
+* Digital Assistants: Conversational AI (e.g., backchanneling); optimization (e.g., ↓ frustration)
+* UX/CX Research: Sentiment analysis of user interviews and tests
+* Gaming & XR: Animation; virtual characters; moderation (e.g., bullying); optimization
+* Education/Coaching: Focus/boredom detection; student well-being; leadership coaching
+* Sales/Meeting Analytics: Sales rep coaching; analyzing customer engagement and sentiment
