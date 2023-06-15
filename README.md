@@ -18,6 +18,8 @@ Developer Documentation is located at [dev.hume.ai](https://dev.hume.ai)
 
 ## Support 
 You can reach us in our CalHack Hume Slack Channel - [CalHack Hume Slack Channel](https://join.slack.com/share/enQtNTQyODMwMTEzNzI5OC0yZWU5YWRmZmViOWM3ZDk0MmQ3NGJmMzU2OWE3ZTc1ZjczZWMxODQ0ZjE2OWFmZTYwNjE0M2VhODM5Mzk4YTUy)
+### Where to find us
+TBD
 
 ## Samples
 The projects in this repo are for you to use as samples to build your project.
@@ -31,3 +33,8 @@ Provides a sample on how to use Hume AI [Streaming API](https://docs.hume.ai/doc
 
 Provides a sample on how to use OpenAPI with Hume AI.
 It will provide a sample on how to stringify Hume API expression predictions with OpenAPI.
+
+### [Expressions2Text]
+**Python**
+
+Expressions2Text tool takes a (48,1) array of emotion scores and transforms it into human understandable text, which can then be further transformed into a language embedding. 

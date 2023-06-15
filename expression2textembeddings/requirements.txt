@@ -1,0 +1,7 @@
+openai
+pandas
+numpy
+matplotlib
+plotly
+scipy
+scikit-learn
