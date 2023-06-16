@@ -21,6 +21,8 @@ Next, install the required Python packages using the provided `requirements.txt`
 
 3. `pip install -r requirements.txt`
 
+4. Make sure you allow access to both your built-in webcam and keyboard inputs.
+
 ## Configuration
 
 Before you can use HumeChat, you need to configure your Hume and OpenAI API keys:
