@@ -78,6 +78,8 @@ def find_max_emotion(predictions):
             emo_frame = sorted(emo_dict.items())
             emo_frame = np.array([x[1] for x in emo_frame])
             emotion_predictions.append(emo_frame)
+        if len(emotion_predictions) == 0:
+            return 'calm'
         # Assuming 'emotion_predictions' is a 2D array
         mean_predictions = np.array(emotion_predictions).mean(axis=0)
         # Get the index of the highest value
