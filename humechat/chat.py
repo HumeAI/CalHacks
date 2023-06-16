@@ -22,15 +22,12 @@ Your responses will be 1-4 sentences. Only the last sentence will be a question.
 Remember, in your first response, you will (i) introduce yourself, (ii) describe the goal of this experience, and (iii) ask the user their name."""
 
 EMOTIONS = np.array([
-    "admiring", "adoring", "appreciative", "amused", "angry", "anxious",
-    "awestruck", "uncomfortable", "bored", "calm", "focused", "contemplative",
-    "confused", "contemptuous", "content", "hungry",
-    "determined", "disappointed", "disgusted", "distressed", "doubtful",
-    "euphoric", "embarrassed", "disturbed", "entranced", "envious",
-    "excited", "fearful", "guilty", "horrified", "interested", "happy",
-    "enamored", "nostalgic", "pained", "proud", "inspired", "relieved",
-    "smitten", "sad", "satisfied", "desirous", "ashamed", "negatively surprised",
-    "positively surprised", "sympathetic", "tired", "triumphant"
+    "admiring", "adoring", "appreciative", "amused", "angry", "anxious", "awestruck", "uncomfortable", "bored", "calm",
+    "focused", "contemplative", "confused", "contemptuous", "content", "hungry", "determined", "disappointed",
+    "disgusted", "distressed", "doubtful", "euphoric", "embarrassed", "disturbed", "entranced", "envious", "excited",
+    "fearful", "guilty", "horrified", "interested", "happy", "enamored", "nostalgic", "pained", "proud", "inspired",
+    "relieved", "smitten", "sad", "satisfied", "desirous", "ashamed", "negatively surprised", "positively surprised",
+    "sympathetic", "tired", "triumphant"
 ])
 
 conversation = [{
@@ -45,12 +42,15 @@ conversation = [{
 
 emotion_history = []
 
+
 def create_message(user_message=None, user_emotion=None):
     return f"The user says, '{user_message}'. Initially the user looked {user_emotion[0]}, then {user_emotion[1]}."
 
+
 def find_max_emotion(predictions):
+
     def get_adjective(score):
-        if 0.26 <= score < 0.35: 
+        if 0.26 <= score < 0.35:
             return "slightly"
         elif 0.35 <= score < 0.44:
             return "somewhat"
@@ -64,10 +64,10 @@ def find_max_emotion(predictions):
             return "extremely"
         else:
             return ""
-    
+
     if len(predictions) == 0:
         return ["calm", "bored"]
-    
+
     def process_section(section):
         emotion_predictions = []
         for frame_dict in section:
@@ -95,8 +95,10 @@ def find_max_emotion(predictions):
     top_emotions = [process_section(section) for section in sections]
     return top_emotions
 
+
 def store_emotions(result):
     emotion_history.append(result)
+
 
 def message(transcription):
     global emotion_history
@@ -104,8 +106,7 @@ def message(transcription):
     message = create_message(transcription, user_emotions)
     print(Fore.GREEN + "PROMPT:", message + Style.RESET_ALL)
     conversation.append({"role": "user", "content": message})
-    completion = openai.ChatCompletion.create(model="gpt-3.5-turbo",
-                messages=conversation)
+    completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=conversation)
     response = completion.choices[0]['message']['content']
     conversation.append({"role": "assistant", "content": response})
     response = re.sub(r'\([^)]*\)', '', response)

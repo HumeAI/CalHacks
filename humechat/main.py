@@ -18,7 +18,7 @@ from gtts import gTTS
 
 # Configurations
 HUME_API_KEY = ""
-HUME_FACE_FPS = 1/3 #3 FPS
+HUME_FACE_FPS = 1 / 3  # 3 FPS
 
 TEMP_FILE = 'temp.jpg'
 TEMP_WAV_FILE = 'temp.wav'
@@ -34,8 +34,9 @@ recording_data = []
 # Webcam setup
 cam = cv2.VideoCapture(0)
 
+
 async def webcam_loop():
-    while True:  
+    while True:
         try:
             client = HumeStreamClient(HUME_API_KEY)
             config = FaceConfig(identify_faces=True)
@@ -47,16 +48,18 @@ async def webcam_loop():
                         cv2.imwrite(TEMP_FILE, frame)
                         result = await socket.send_file(TEMP_FILE)
                         store_emotions(result)
-                        await asyncio.sleep(1/3)
+                        await asyncio.sleep(1 / 3)
         except websockets.exceptions.ConnectionClosedError:
             print("Connection lost. Attempting to reconnect in 1 seconds.")
-            time.sleep(1)  
+            time.sleep(1)
         except Exception:
             print(traceback.format_exc())
+
 
 def start_asyncio_event_loop(loop, asyncio_function):
     asyncio.set_event_loop(loop)
     loop.run_until_complete(asyncio_function)
+
 
 def recording_loop():
     global recording_data, recording
@@ -75,6 +78,7 @@ def recording_loop():
     playsound(TEMP_WAV_FILE)
     os.remove(TEMP_WAV_FILE)
 
+
 def on_press(key):
     global recording, recording_data, recorder
     if key == keyboard.Key.space:
@@ -86,6 +90,7 @@ def on_press(key):
             recorder.start()
             print("(Recording started...)")
             threading.Thread(target=recording_loop).start()
+
 
 new_loop = asyncio.new_event_loop()
 
