@@ -12,7 +12,7 @@ from pvrecorder import PvRecorder
 from whispercpp import Whisper
 from chat import message, store_emotions
 from playsound import playsound
-from hume import HumeStreamClient
+from hume import HumeStreamClient, HumeClientException
 from hume.models.config import FaceConfig
 from gtts import gTTS
 
@@ -52,6 +52,9 @@ async def webcam_loop():
         except websockets.exceptions.ConnectionClosedError:
             print("Connection lost. Attempting to reconnect in 1 seconds.")
             time.sleep(1)
+        except HumeClientException:
+            print(traceback.format_exc())
+            break
         except Exception:
             print(traceback.format_exc())
 
