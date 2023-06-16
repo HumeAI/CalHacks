@@ -7,7 +7,7 @@ class OpenAIConfigs:
 
 
 class HumeAIConfigs:
-
+    API_KEY = ""
     HUME_MODEL_TYPE = "Prosmimic"
 
     EMOTIONS = [

@@ -5,3 +5,5 @@ matplotlib
 plotly
 scipy
 scikit-learn
+hume
+
