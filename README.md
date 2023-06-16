@@ -11,7 +11,7 @@ Hume provides the AI toolkit to measure, understand, and improve how technology 
 ## Workshop Details
 Example code we'll walk through in our API workshop that integrates expression understanding and LLMs will be [Humechat](https://github.com/HumeAI/CalHacks/tree/main/humechat)
 ## Sign up
-Navigate to [bit.ly/calhacks_hume](bit.ly/calhacks_hume) to sign up.
+Navigate to [bit.ly/calhacks_hume](https://bit.ly/calhacks_hume) to sign up.
 
 ## Documentation
 Developer Documentation is located at [dev.hume.ai](https://dev.hume.ai)
