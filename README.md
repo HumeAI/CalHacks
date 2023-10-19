@@ -26,7 +26,7 @@ Learn more about Hume AI, and the science behind the platform:
 
 ## Sample Projects
 
-The projects in this repo are for you to use as references to build your project. Visit the `#built-with-hume` channel in the Community section of our [Discord Server](https://discord.com/invite/WPRSugvAm6) for more reference code!
+Below are a list of example projects in Python and NodeJS for you to reference and jumpstart your development. Visit the `#built-with-hume` channel in the Community section of our [Discord Server](https://discord.com/invite/WPRSugvAm6) for more reference code!
 
 **Python**
 
@@ -63,5 +63,3 @@ The projects in this repo are for you to use as references to build your project
 - **Education/Coaching** | Focus/boredom detection; student well-being; leadership coaching.
 
 - **Sales/Meeting Analytics** | Sales rep coaching; analyzing customer engagement and sentiment.
-
----
