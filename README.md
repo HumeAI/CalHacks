@@ -12,9 +12,7 @@ Learn more about Hume AI, and the science behind the platform:
 
 - Our interactive expression model maps for the voice, face, and language: [https://hume.ai/products/#models](https://hume.ai/products/#models)
 
----
-
-### Hacker Resources
+## Hacker Resources
 
 - **Workshop:** Here is the example code we'll walk through during our API workshop which integrates expression understanding and LLMs: [Humechat](https://github.com/HumeAI/CalHacks/tree/main/humechat).
 
@@ -26,9 +24,7 @@ Learn more about Hume AI, and the science behind the platform:
 
 - **Support:** You can reach us in our CalHack Hume Slack Channel or on the [Hume Developer Community Discord Server](https://discord.com/invite/WPRSugvAm6).
 
----
-
-### Sample Projects
+## Sample Projects
 
 The projects in this repo are for you to use as samples to build your project. Visit the `#built-with-hume` channel in the Community section of our [Discord Server](https://discord.com/invite/WPRSugvAm6) for more examples to reference!
 
@@ -42,9 +38,7 @@ The projects in this repo are for you to use as samples to build your project. V
 
 - [Sandbox](https://github.com/HumeAI/CalHacks/tree/main/sandbox) | _Provides a sample on how to use Hume's Streaming API with your webcam and mic._
 
----
-
-### How Businesses and Researchers are utilizing Hume today:
+## How Businesses and Researchers are utilizing Hume today:
 
 - **Health & Wellness** | Clinical diagnosis (e.g., depression, autism); patient monitoring, therap.y
 - **AI Research/Services** | The next generation of search, recommendation, and content generation.
