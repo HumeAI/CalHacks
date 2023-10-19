@@ -46,17 +46,17 @@ The projects in this repo are for you to use as samples to build your project. V
 
 ### How Businesses and Researchers are utilizing Hume today:
 
-- Health & Wellness | _Clinical diagnosis (e.g., depression, autism); patient monitoring, therap.y_
-- AI Research/Services | _The next generation of search, recommendation, and content generation._
-- Social Networks | _Toxicity detection; health/well-being monitoring; relationship compatibility._
-- Call Center Analytics | _Call triaging (e.g., frustration); emergency detection (e.g., pain); training._
-- Embedded Devices | _Social robots; AI dashcams; warehouse safety._
-- Brand/Financial Analysis | _Sentiment analysis for market forecasting and brand sentiment research._
-- Creative Tools | _Character animation; content generation, editing, and curation._
-- Digital Assistants | _Conversational AI (e.g., backchanneling); optimization (e.g., ↓ frustration)._
-- UX/CX Research | _Sentiment analysis of user interviews and tests._
-- Gaming & XR | _Animation; virtual characters; moderation (e.g., bullying); optimization._
-- Education/Coaching | _Focus/boredom detection; student well-being; leadership coaching._
-- Sales/Meeting Analytics | _Sales rep coaching; analyzing customer engagement and sentiment._
+- **Health & Wellness** | Clinical diagnosis (e.g., depression, autism); patient monitoring, therap.y
+- **AI Research/Services** | The next generation of search, recommendation, and content generation.
+- **Social Networks** | Toxicity detection; health/well-being monitoring; relationship compatibility.
+- **Call Center Analytics** | Call triaging (e.g., frustration); emergency detection (e.g., pain); training.
+- **Embedded Devices** | Social robots; AI dashcams; warehouse safety.
+- **Brand/Financial Analysis** | Sentiment analysis for market forecasting and brand sentiment research.
+- **Creative Tools** | Character animation; content generation, editing, and curation.
+- **Digital Assistants** | Conversational AI (e.g., backchanneling); optimization (e.g., ↓ frustration).
+- **UX/CX Research** | Sentiment analysis of user interviews and tests.
+- **Gaming & XR** | Animation; virtual characters; moderation (e.g., bullying); optimization.
+- **Education/Coaching** | Focus/boredom detection; student well-being; leadership coaching.
+- **Sales/Meeting Analytics** | Sales rep coaching; analyzing customer engagement and sentiment.
 
 ---
