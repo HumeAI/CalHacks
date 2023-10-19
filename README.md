@@ -1,54 +1,60 @@
-# CalHacks AI Hackathon Resources
+# Cal Hacks 10.0 | Hume AI
 
-## Hume
+## Hume AI
+
 Hume provides the AI toolkit to measure, understand, and improve how technology affects human emotion. Our algorithms understand nuanced speech prosody, vocal bursts, facial expression, and tone of language—which, integrated into large language models, will determine how people experience the future of AI. Our APIs can process video, audio, images, or text and can be integrated with LLMs to build better healthcare solutions, digital assistants, communication tools, and more.
 
-## Learning more about Hume and our science
-1. Hume AI Intro: The New Science of Expression [https://hume.ai/video/](https://hume.ai/video/)
-2. Fundamental Advances in Understanding Nonverbal Behavior | Keynote by Alan Cowen | ICML 2022 [https://youtu.be/4-EEhdqETJY](https://youtu.be/4-EEhdqETJY)
-3. Our interactive expression model maps for the voice, face, and language: [https://hume.ai/products/#models](https://hume.ai/products/#models)
+Learn more about Hume AI, and the science behind the platform:
 
-## Workshop Details
-Example code we'll walk through in our API workshop that integrates expression understanding and LLMs will be [Humechat](https://github.com/HumeAI/CalHacks/tree/main/humechat)
-## Sign up
-Navigate to [bit.ly/calhacks_hume](https://bit.ly/calhacks_hume) to sign up.
+- Hume AI Intro: The New Science of Expression [https://hume.ai/video/](https://hume.ai/video/)
 
-## Documentation
-Developer Documentation is located at [dev.hume.ai](https://dev.hume.ai)
+- Fundamental Advances in Understanding Nonverbal Behavior | Keynote by Alan Cowen | ICML 2022 [https://youtu.be/4-EEhdqETJY](https://youtu.be/4-EEhdqETJY)
 
-## Support 
-You can reach us in our CalHack Hume Slack Channel - [CalHack Hume Slack Channel](https://join.slack.com/share/enQtNTQyODMwMTEzNzI5OC0yZWU5YWRmZmViOWM3ZDk0MmQ3NGJmMzU2OWE3ZTc1ZjczZWMxODQ0ZjE2OWFmZTYwNjE0M2VhODM5Mzk4YTUy)
-### Where to find us
-TBD
+- Our interactive expression model maps for the voice, face, and language: [https://hume.ai/products/#models](https://hume.ai/products/#models)
 
-## Samples
-The projects in this repo are for you to use as samples to build your project.
+---
 
-### [Sandbox](https://github.com/HumeAI/CalHacks/tree/main/sandbox)
-**NodeJS** 
+### Hacker Resources
 
-Provides a sample on how to use Hume AI [Streaming API](https://docs.hume.ai/doc/streaming-api) with your webcam and mic.
-### [Humechat](https://github.com/HumeAI/CalHacks/tree/main/humechat)
+- **Workshop:** Here is the example code we'll walk through during our API workshop which integrates expression understanding and LLMs: [Humechat](https://github.com/HumeAI/CalHacks/tree/main/humechat).
+
+- **Sign up:** Navigate to [bit.ly/calhacks_hume](https://bit.ly/calhacks_hume) to sign up and obtain your API Key.
+
+- **Documentation:** Explore the Hume API documentation at [dev.hume.ai](https://dev.hume.ai). There you will find Guides, Recipes, FAQs, and our API Reference.
+
+- **Support:** You can reach us in our CalHack Hume Slack Channel or on the [Hume Developer Community Discord Server](https://discord.com/invite/WPRSugvAm6).
+
+---
+
+### Sample Projects
+
+The projects in this repo are for you to use as samples to build your project. Visit the `#built-with-hume` channel in the Community section of our [Discord Server](https://discord.com/invite/WPRSugvAm6) for more examples to reference!
+
 **Python**
 
-Provides a sample on how to use OpenAPI with Hume AI.
-It will provide a sample on how to stringify Hume API expression predictions with OpenAPI.
+- [Expressions Prompt Engineering](https://github.com/HumeAI/expressive-prompt-engineering/tree/main) | _Developed by our research team, this project is a solution for enhancing LLM prompts with expression via Hume APIs. ChatGPT and OpenAI language embeddings are also integrated to enable deeper experimentation._
 
-### [Expressions2Text](https://github.com/HumeAI/CalHacks/tree/main/expression2textembeddings)
-**Python**
+- [Humechat](https://github.com/HumeAI/CalHacks/tree/main/humechat) | _Sample project which usees OpenAPI with Hume AI. Also includes an example of how to stringify Hume API expression predictions with OpenAPI._
 
-Expressions2Text tool takes a (48,1) array of emotion scores and transforms it into human understandable text, which can then be further transformed into a language embedding. 
+**NodeJS**
 
-## Here's how our existing customers are using Hume's expression APIs:
-* Health & Wellness: Clinical diagnosis (e.g., depression, autism); patient monitoring, therapy
-* AI Research/Services: The next generation of search, recommendation, and content generation
-* Social Networks: Toxicity detection; health/well-being monitoring; relationship compatibility
-* Call Center Analytics: Call triaging (e.g., frustration); emergency detection (e.g., pain); training
-* Embedded Devices: Social robots; AI dashcams; warehouse safety
-* Brand/Financial Analysis: Sentiment analysis for market forecasting and brand sentiment research
-* Creative Tools: Character animation; content generation, editing, and curation
-* Digital Assistants: Conversational AI (e.g., backchanneling); optimization (e.g., ↓ frustration)
-* UX/CX Research: Sentiment analysis of user interviews and tests
-* Gaming & XR: Animation; virtual characters; moderation (e.g., bullying); optimization
-* Education/Coaching: Focus/boredom detection; student well-being; leadership coaching
-* Sales/Meeting Analytics: Sales rep coaching; analyzing customer engagement and sentiment
+- [Sandbox](https://github.com/HumeAI/CalHacks/tree/main/sandbox) | _Provides a sample on how to use Hume's Streaming API with your webcam and mic._
+
+---
+
+### How Businesses and Researchers are utilizing Hume today:
+
+- Health & Wellness | _Clinical diagnosis (e.g., depression, autism); patient monitoring, therap.y_
+- AI Research/Services | _The next generation of search, recommendation, and content generation._
+- Social Networks | _Toxicity detection; health/well-being monitoring; relationship compatibility._
+- Call Center Analytics | _Call triaging (e.g., frustration); emergency detection (e.g., pain); training._
+- Embedded Devices | _Social robots; AI dashcams; warehouse safety._
+- Brand/Financial Analysis | _Sentiment analysis for market forecasting and brand sentiment research._
+- Creative Tools | _Character animation; content generation, editing, and curation._
+- Digital Assistants | _Conversational AI (e.g., backchanneling); optimization (e.g., ↓ frustration)._
+- UX/CX Research | _Sentiment analysis of user interviews and tests._
+- Gaming & XR | _Animation; virtual characters; moderation (e.g., bullying); optimization._
+- Education/Coaching | _Focus/boredom detection; student well-being; leadership coaching._
+- Sales/Meeting Analytics | _Sales rep coaching; analyzing customer engagement and sentiment._
+
+---
