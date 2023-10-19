@@ -20,7 +20,6 @@ Follow the steps below to set up and activate a Python environment for HumeChat:
 Next, install the required Python packages using the provided `requirements.txt` file:
 
 3. `pip install -r requirements.txt`
-
 4. Make sure you allow access to both your built-in webcam and keyboard inputs.
 
 ## Configuration
