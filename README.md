@@ -18,9 +18,11 @@ Learn more about Hume AI, and the science behind the platform:
 
 - **Workshop:** Here is the example code we'll walk through during our API workshop which integrates expression understanding and LLMs: [Humechat](https://github.com/HumeAI/CalHacks/tree/main/humechat).
 
-- **Sign up:** Navigate to [bit.ly/calhacks_hume](https://bit.ly/calhacks_hume) to sign up and obtain your API Key.
+- **Sign up:** Navigate to [https://beta.hume.ai/sign-up](https://beta.hume.ai/sign-up) to sign up and obtain your API Key.
 
-- **Documentation:** Explore the Hume API documentation at [dev.hume.ai](https://dev.hume.ai). There you will find Guides, Recipes, FAQs, and our API Reference.
+- **API Key:** Once you are signed up, you can get your [API Key](https://dev.hume.ai/docs/quick-start) to begin making calls to Hume APIs
+
+- **Documentation:** Explore the Hume API documentation at [dev.hume.ai](https://dev.hume.ai). There you will find Guides, Recipes, FAQs, and our API Reference documentation.
 
 - **Support:** You can reach us in our CalHack Hume Slack Channel or on the [Hume Developer Community Discord Server](https://discord.com/invite/WPRSugvAm6).
 

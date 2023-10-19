@@ -17,7 +17,7 @@ from hume.models.config import FaceConfig
 from gtts import gTTS
 
 # Configurations
-HUME_API_KEY = ""
+HUME_API_KEY = "" # paste your API Key here
 HUME_FACE_FPS = 1 / 3  # 3 FPS
 
 TEMP_FILE = 'temp.jpg'
