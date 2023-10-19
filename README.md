@@ -6,9 +6,9 @@ Hume provides the AI toolkit to measure, understand, and improve how technology 
 
 Learn more about Hume AI, and the science behind the platform:
 
-- Hume AI Intro: The New Science of Expression [https://hume.ai/video/](https://hume.ai/video/)
+- Hume AI Intro: [The New Science of Expression](https://hume.ai/video/)
 
-- Fundamental Advances in Understanding Nonverbal Behavior | Keynote by Alan Cowen | ICML 2022 [https://youtu.be/4-EEhdqETJY](https://youtu.be/4-EEhdqETJY)
+- [Fundamental Advances in Understanding Nonverbal Behavior](https://youtu.be/4-EEhdqETJY) | Keynote by Alan Cowen | ICML 2022
 
 - Our interactive expression model maps for the voice, face, and language: [https://hume.ai/products/#models](https://hume.ai/products/#models)
 
