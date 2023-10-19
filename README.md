@@ -26,7 +26,7 @@ Learn more about Hume AI, and the science behind the platform:
 
 ## Sample Projects
 
-The projects in this repo are for you to use as samples to build your project. Visit the `#built-with-hume` channel in the Community section of our [Discord Server](https://discord.com/invite/WPRSugvAm6) for more examples to reference!
+The projects in this repo are for you to use as references to build your project. Visit the `#built-with-hume` channel in the Community section of our [Discord Server](https://discord.com/invite/WPRSugvAm6) for more reference code!
 
 **Python**
 
@@ -41,16 +41,27 @@ The projects in this repo are for you to use as samples to build your project. V
 ## How Businesses and Researchers are utilizing Hume today:
 
 - **Health & Wellness** | Clinical diagnosis (e.g., depression, autism); patient monitoring, therap.y
+
 - **AI Research/Services** | The next generation of search, recommendation, and content generation.
+
 - **Social Networks** | Toxicity detection; health/well-being monitoring; relationship compatibility.
+
 - **Call Center Analytics** | Call triaging (e.g., frustration); emergency detection (e.g., pain); training.
+
 - **Embedded Devices** | Social robots; AI dashcams; warehouse safety.
+
 - **Brand/Financial Analysis** | Sentiment analysis for market forecasting and brand sentiment research.
+
 - **Creative Tools** | Character animation; content generation, editing, and curation.
+
 - **Digital Assistants** | Conversational AI (e.g., backchanneling); optimization (e.g., ↓ frustration).
+
 - **UX/CX Research** | Sentiment analysis of user interviews and tests.
+
 - **Gaming & XR** | Animation; virtual characters; moderation (e.g., bullying); optimization.
+
 - **Education/Coaching** | Focus/boredom detection; student well-being; leadership coaching.
+
 - **Sales/Meeting Analytics** | Sales rep coaching; analyzing customer engagement and sentiment.
 
 ---
