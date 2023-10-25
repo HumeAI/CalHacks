@@ -36,7 +36,7 @@ Below are a list of example projects in Python and NodeJS for reference to jumps
 
 **NodeJS**
 
-- [Hume Raw text Processor](https://github.com/HumeAI/CalHacks/tree/main/hume-raw-text-processor) | _Sample project which on processing raw text with the Batch API_
+- [Hume Raw Text Processor](https://github.com/HumeAI/CalHacks/tree/main/hume-raw-text-processor) | _Sample project which on processing raw text with the Batch API_
 
 - [Sandbox](https://github.com/HumeAI/CalHacks/tree/main/sandbox) | _Provides a sample on how to use Hume's Streaming API with your webcam and mic._
 
