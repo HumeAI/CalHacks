@@ -1,29 +1,30 @@
-// Hume API Configuration
-const HUME_API_KEY = '<your-api-key>';
 const BASE_URL = 'https://api.hume.ai/v0/batch/jobs';
 
-// Specify which Language.
+// 1. Set your API Key
+const HUME_API_KEY = '<your-api-key>';
+
+// 2. Specify which Language
 const language: Language = 'en';
 
-// Specify Language Model configuration.
+// 3. Specify Language Model configuration
 const languageModelConfig: LanguageModelConfig = {};
 
-// Copy and paste the text you'd like processed here.
+// 4. Copy and paste the text you'd like processed here
 const rawTextInput = '';
 
-// Run `npm run start` to send the rawTextInput to Hume for processing and log the predictions one processing has completed.
+// 5. Run `npm run start` to get inference results (predictions) from Hume's Language Model for the rawTextInput.
 processRawText(rawTextInput, language, languageModelConfig).catch(
-  (error: Error) => console.error('An error occurred:', error),
+  (error: Error) => console.error('An error occurred:', error)
 );
 
 /**
- * Function which starts a job, polls the status of the job until status is complete, and then fetches the
- * job predictions once the job has completed.
+ * Function which starts a job, polls the status of the job until status is `COMPLETED`, and then fetches the
+ * job predictions.
  */
 async function processRawText(
   rawText: string,
-  language: string,
-  languageModelConfig: any,
+  language: Language,
+  languageModelConfig: LanguageModelConfig
 ): Promise<void> {
   const MAX_RETRIES = 5; // adjust the number of retries here
   const INITIAL_DELAY_MS = 1000; // starting with 1 second delay
@@ -54,8 +55,8 @@ async function processRawText(
  */
 async function startJob(
   rawText: string,
-  language: string,
-  languageModelConfig: any,
+  language: Language,
+  languageModelConfig: LanguageModelConfig
 ): Promise<string> {
   const body = JSON.stringify({
     text: [rawText],
@@ -68,6 +69,7 @@ async function startJob(
     throw new Error(`Failed to start job: ${response.statusText}`);
   }
   const json = await response.json();
+
   return json.job_id as string;
 }
 
@@ -78,10 +80,11 @@ async function getJobStatus(jobId: string): Promise<string> {
   const options = buildHumeRequestOptions('GET');
   const response = await fetch(`${BASE_URL}/${jobId}`, options);
   if (!response.ok) {
-    throw new Error(`Failed to fetch status: ${response.statusText}`);
+    throw new Error(`Failed to fetch job status: ${response.statusText}`);
   }
-  const data = await response.json();
-  return data.state.status;
+  const json = await response.json();
+
+  return json.state.status;
 }
 
 /**
@@ -91,9 +94,10 @@ async function getPredictions(jobId: string): Promise<any> {
   const options = buildHumeRequestOptions('GET');
   const response = await fetch(`${BASE_URL}/${jobId}/predictions`, options);
   if (!response.ok) {
-    throw new Error(`Failed to fetch predictions: ${response.statusText}`);
+    throw new Error(`Failed to fetch job predictions: ${response.statusText}`);
   }
   const json = await response.json();
+
   return json;
 }
 
