@@ -27,3 +27,4 @@ This project serves as an example implementation of our Batch API processing raw
 ## Notes
 
 - The logic for fetching results utilizes polling with exponential backoff to wait for the job to complete before fetching the predictions. The maximum number of retries is set to `5`.
+- Although the [Batch API](https://dev.hume.ai/docs/batch-api) can accept a list of strings to process as raw text, this implementation accepts a single string for simplicity.
