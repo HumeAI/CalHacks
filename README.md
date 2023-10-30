@@ -44,7 +44,7 @@ Below are a list of example projects in Python and NodeJS for reference to jumps
 
 ## How Businesses and Researchers are utilizing Hume today:
 
-- **Health & Wellness** | Clinical diagnosis (e.g., depression, autism); patient monitoring, therap.y
+- **Health & Wellness** | Clinical diagnosis (e.g., depression, autism); patient monitoring, therapy.
 
 - **AI Research/Services** | The next generation of search, recommendation, and content generation.
 
